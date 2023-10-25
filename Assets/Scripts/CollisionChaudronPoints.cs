@@ -13,7 +13,6 @@ public class CollisionChaudronPoints : MonoBehaviour
     void Start()
     {
         _nbPoints = 0;
-        
     }
     private void OnTriggerEnter(Collider other) {
         if(other.gameObject.tag == "Bonbon"){
