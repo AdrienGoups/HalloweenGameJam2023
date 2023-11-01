@@ -43,7 +43,7 @@ public class Timer : MonoBehaviour
         }
     }
     private void ChangerScene(){
-        SceneManager.LoadScene("FIN");
+        SceneManager.LoadScene(3);
     }
 
     void AfficheTemps(float temps){
