@@ -6250,14 +6250,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071507418}
-  m_LocalRotation: {x: -0.5957004, y: -0.3809739, z: 0.3809739, w: -0.5957004}
-  m_LocalPosition: {x: 0.167, y: 0.18099976, z: -1.081}
-  m_LocalScale: {x: 0.155, y: 0.15, z: 0.15}
+  m_LocalRotation: {x: 0.68100786, y: 0.1903382, z: -0.19033799, w: 0.68100744}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.16915, y: 0.16915, z: 0.16915}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1795499472}
+  m_Father: {fileID: 1679281154}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 90, y: -180, z: 114.799}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -31.231}
 --- !u!1001 &1081907844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9757,6 +9757,53 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1665259449}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1679281153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1679281154}
+  - component: {fileID: 1679281155}
+  m_Layer: 0
+  m_Name: Kokoro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1679281154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679281153}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.265, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1071507422}
+  m_Father: {fileID: 1795499472}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1679281155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679281153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca59055a1f90a97419f2e3ac585fe1d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Billboard: {fileID: 1679281153}
+  Camera: {fileID: 177237912}
 --- !u!4 &1694961384 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4617480081656454, guid: b570e106ef044cc4a9fa5fb228bec801,
@@ -10629,7 +10676,7 @@ Transform:
   - {fileID: 1142850468}
   - {fileID: 1874552591}
   - {fileID: 1878527209}
-  - {fileID: 1071507422}
+  - {fileID: 1679281154}
   - {fileID: 537533269}
   m_Father: {fileID: 0}
   m_RootOrder: 28
