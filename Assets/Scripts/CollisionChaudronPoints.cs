@@ -18,6 +18,7 @@ public class CollisionChaudronPoints : MonoBehaviour
         if(other.gameObject.tag == "Bonbon"){
             _nbPoints += 1;
             _textPoints.text = _nbPoints.ToString();
+            Destroy(other.gameObject);
            
         }
     }
