@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class Timer : MonoBehaviour
@@ -37,6 +38,12 @@ public class Timer : MonoBehaviour
         if(tempsActif == true){
             CalculTime();
         }
+        else{
+            ChangerScene();
+        }
+    }
+    private void ChangerScene(){
+        SceneManager.LoadScene("FIN");
     }
 
     void AfficheTemps(float temps){
